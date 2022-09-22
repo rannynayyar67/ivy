@@ -261,3 +261,11 @@ def rem(x, y):
 
 def sub(x, y):
     return ivy.subtract(x, y)
+
+
+def erf(x):
+    return ivy.erf(x)
+
+
+def shift_left(x, y):
+    return ivy.bitwise_left_shift(x, y)
